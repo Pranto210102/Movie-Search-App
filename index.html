@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Movie Searching App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Movei Search app</h1>
+        <p>Search for movies and save your favorites!</p>
+    </header>
+    <main>
+        <section class="search-section" id="pagination-controls">
+            <input type="text" id="search-input"
+             placeholder="Search for a movie..."/>
+            <button id="SearchBtn">Search</button>
+        </section>
+
+        <section id="movieResults" class="movies"></section>
+        
+        <section class="favorites-section">
+           <h2>favorites</h2>
+           <div id="favorites" class="movies"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Made with favorites by you</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
