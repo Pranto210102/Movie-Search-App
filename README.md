@@ -10,7 +10,6 @@ The Movie Search App is a web application that allows users to search for movies
 - Display movie details, including the poster, title, and release year.
 - Add movies to a favorites list.
 - Store favorites in local storage for persistent access.
-- Pagination for search results.
 
 ## Technologies Used
 
