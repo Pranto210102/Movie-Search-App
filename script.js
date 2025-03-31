@@ -1,4 +1,4 @@
-const API_URL = "https://www.omdbapi.com/?apikey=3eae798c";
+const API_URL = "https://www.omdbapi.com/?i=tt3896198&apikey=1e2f9e44";
 const searchInput=document.getElementById('search-input');
 const searchBtn=document.getElementById('SearchBtn');
 const movieResults = document.getElementById('movieResults');
